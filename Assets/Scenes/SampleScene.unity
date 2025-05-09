@@ -8684,7 +8684,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 803735edb56edfa47b95136a0ea9cb48, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ada0922f9d56048489aff37d6f946899, type: 2}
+      objectReference: {fileID: 2100000, guid: 83359b104b88c294ebeb9888a9fe5e42, type: 2}
     - target: {fileID: 919132149155446097, guid: 803735edb56edfa47b95136a0ea9cb48, type: 3}
       propertyPath: m_Name
       value: Sarah Plushie
