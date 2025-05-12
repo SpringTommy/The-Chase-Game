@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -224,7 +224,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: -107}
+  m_AnchoredPosition: {x: 0.000030517578, y: -107}
   m_SizeDelta: {x: 350.201, y: 84.683}
   m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &251826456
@@ -353,50 +353,6 @@ Transform:
   - {fileID: 1149997417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &685559299
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 685559301}
-  - component: {fileID: 685559300}
-  m_Layer: 0
-  m_Name: SceneLoader
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &685559300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685559299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1521153a6283a744a95b2c0964af15e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &685559301
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685559299}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 433.03683, y: 278.07053, z: 121.89491}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &729489970
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,7 +389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: -260}
+  m_AnchoredPosition: {x: 0.000030517578, y: -260}
   m_SizeDelta: {x: 350.201, y: 84.683}
   m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &729489972
@@ -564,8 +520,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.47920835, y: 0.43162733}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.96, y: 36.938}
-  m_SizeDelta: {x: 1880.1, y: 1006.7}
+  m_AnchoredPosition: {x: 19.968, y: 36.744}
+  m_SizeDelta: {x: 1880.1, y: 1006.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &745624835
 MonoBehaviour:
@@ -1293,7 +1249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030518, y: 42.341}
+  m_AnchoredPosition: {x: 0.000030517578, y: 42.341}
   m_SizeDelta: {x: 350.201, y: 84.683}
   m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &1903084932
@@ -1398,5 +1354,4 @@ SceneRoots:
   - {fileID: 1630841281}
   - {fileID: 513966179}
   - {fileID: 75627604}
-  - {fileID: 685559301}
   - {fileID: 1628378056}
