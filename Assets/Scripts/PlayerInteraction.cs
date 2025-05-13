@@ -7,6 +7,7 @@ public class PlayerInteraction : MonoBehaviour
 {
     [SerializeField] private float maxDistance = 2f;
     [SerializeField] private Text interactableName;
+    [SerializeField] private GameObject ousideSpawn;
 
     private InteractionObject targetInteraction;
 
@@ -46,5 +47,10 @@ public class PlayerInteraction : MonoBehaviour
         {
             targetInteraction.Interact();
         }
+    }
+
+    public void tpPlayer()
+    {
+        transform.position = ousideSpawn.transform.position;
     }
 }
