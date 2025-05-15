@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerInteraction : MonoBehaviour
 {
     [SerializeField] private float maxDistance = 2f;
     [SerializeField] private Text interactableName;
     [SerializeField] private GameObject ousideSpawn;
+    [SerializeField] private string newSceneName;
 
     private InteractionObject targetInteraction;
 
@@ -52,5 +54,13 @@ public class PlayerInteraction : MonoBehaviour
     public void tpPlayer()
     {
         transform.position = ousideSpawn.transform.position;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Monster")
+        {
+            SceneManager.LoadScene(newSceneName);
+        }
     }
 }
