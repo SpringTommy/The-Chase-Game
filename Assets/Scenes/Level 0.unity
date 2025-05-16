@@ -19987,6 +19987,7 @@ MonoBehaviour:
   maxDistance: 2
   interactableName: {fileID: 1130473476}
   ousideSpawn: {fileID: 578589300}
+  newSceneName: 
 --- !u!1 &993844855
 GameObject:
   m_ObjectHideFlags: 0
@@ -23503,7 +23504,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Level 1
+          m_StringArgument: CutScene0
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!65 &1179863252
