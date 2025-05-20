@@ -8092,6 +8092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShotGun_E
       objectReference: {fileID: 0}
+    - target: {fileID: 9209568620739521198, guid: 106d42a182d825e4ead3c727dfaacd2b, type: 3}
+      propertyPath: m_TagString
+      value: Selectable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -20075,6 +20079,7 @@ MonoBehaviour:
   interactableName: {fileID: 1130473476}
   ousideSpawn: {fileID: 578589300}
   newSceneName: 
+  newSceneNameAcid: 
 --- !u!1 &993844855
 GameObject:
   m_ObjectHideFlags: 0

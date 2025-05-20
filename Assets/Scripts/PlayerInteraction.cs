@@ -10,6 +10,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private Text interactableName;
     [SerializeField] private GameObject ousideSpawn;
     [SerializeField] private string newSceneName;
+    [SerializeField] private string newSceneNameAcid;
 
     private InteractionObject targetInteraction;
 
@@ -61,6 +62,10 @@ public class PlayerInteraction : MonoBehaviour
         if (other.gameObject.tag == "Monster")
         {
             SceneManager.LoadScene(newSceneName);
+        }
+        if (other.gameObject.tag == "Acid")
+        {
+            SceneManager.LoadScene(newSceneNameAcid);
         }
     }
 }
