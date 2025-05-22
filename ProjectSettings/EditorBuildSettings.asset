@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeathScene ACID.unity
     guid: 3991d074c473d51439fdf60fbb904cf7
+  - enabled: 1
+    path: Assets/Scenes/Demo Ending.unity
+    guid: e5708dfb49a35894faa8a4fb3c5d7613
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

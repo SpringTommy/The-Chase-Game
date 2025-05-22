@@ -6582,6 +6582,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1729277969}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1729277969}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!65 &311866461
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6610,7 +6634,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311866458}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -8215,6 +8239,30 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 311866461}
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 311866462}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 311866462}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
@@ -13640,6 +13688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet_ShotGun_A (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3489922258393200078, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4261919692218773364, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.019999504
@@ -15990,6 +16042,10 @@ PrefabInstance:
     - target: {fileID: 3489922258393200078, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
       propertyPath: m_Name
       value: Bullet_ShotGun_A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489922258393200078, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4261919692218773364, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19494,6 +19550,10 @@ PrefabInstance:
     - target: {fileID: 3489922258393200078, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
       propertyPath: m_Name
       value: Bullet_ShotGun_A (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489922258393200078, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4261919692218773364, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37579,6 +37639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bullet_ShotGun_A (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3489922258393200078, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4261919692218773364, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.0023994446
@@ -38934,7 +38998,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729277961}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
   m_Name: 
@@ -43764,6 +43828,10 @@ PrefabInstance:
     - target: {fileID: 3489922258393200078, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
       propertyPath: m_Name
       value: Bullet_ShotGun_A
+      objectReference: {fileID: 0}
+    - target: {fileID: 3489922258393200078, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4261919692218773364, guid: 4d409630e9aa0d74cb9e7359305b15c6, type: 3}
       propertyPath: m_LocalPosition.x
