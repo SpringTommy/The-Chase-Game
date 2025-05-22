@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17656344, g: 0.22099847, b: 0.30330804, a: 1}
+  m_IndirectSpecularColor: {r: 0.17656033, g: 0.22099449, b: 0.30330378, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1527,7 +1527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dc74b28a8e2c34b911e6a5e82064c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 395035388}
   respawn_point: {fileID: 1990397483}
 --- !u!4 &292462094 stripped
 Transform:
@@ -2637,6 +2637,11 @@ MonoBehaviour:
   ousideSpawn: {fileID: 0}
   newSceneName: 
   newSceneNameAcid: 
+--- !u!4 &395035388 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+  m_PrefabInstance: {fileID: 1337135196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &400384958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6452,7 +6457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dc74b28a8e2c34b911e6a5e82064c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 395035388}
   respawn_point: {fileID: 1990397483}
 --- !u!65 &1494821014
 BoxCollider:
