@@ -17,6 +17,6 @@ public class MoveObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Sphere.transform.position = Vector3.MoveTowards(Sphere.transform.position, Cube.transform.position, speed);
+        Sphere.transform.position = Vector3.MoveTowards(Sphere.transform.position, Cube.transform.position, speed * Time.deltaTime);
     }
 }

@@ -3637,7 +3637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sphere: {fileID: 1018359407}
   Cube: {fileID: 2101632529}
-  speed: 0.08
+  speed: 5.3
 --- !u!1 &1030513013
 GameObject:
   m_ObjectHideFlags: 0
