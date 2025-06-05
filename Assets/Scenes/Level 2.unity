@@ -308,6 +308,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 216451344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &107774796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 107774797}
+  - component: {fileID: 107774798}
+  m_Layer: 0
+  m_Name: Objective Five
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &107774797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107774796}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 129015975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &107774798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107774796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554aa031d4ff8e04b8a9fd65069c6f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveDisplay: {fileID: 731577210}
+  objectiveText: Leave this room. (Again)
+  completedText: Wahoo! You've completed an objective!
+  OnCompleteObjective:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &129015974
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +388,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 256184213}
+  - {fileID: 1056312113}
+  - {fileID: 933235919}
+  - {fileID: 1509685309}
+  - {fileID: 107774797}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &133979004 stripped
@@ -658,8 +712,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 554aa031d4ff8e04b8a9fd65069c6f89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveDisplay: {fileID: 0}
-  objectiveText: Blockade the door
+  objectiveDisplay: {fileID: 731577210}
+  objectiveText: Blockade the door.
   completedText: Wahoo! You've completed an objective!
   OnCompleteObjective:
     m_PersistentCalls:
@@ -1806,6 +1860,56 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2008538312}
   m_Enabled: 1
+--- !u!1 &933235918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 933235919}
+  - component: {fileID: 933235920}
+  m_Layer: 0
+  m_Name: Objective Three
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &933235919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933235918}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 129015975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &933235920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933235918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554aa031d4ff8e04b8a9fd65069c6f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveDisplay: {fileID: 731577210}
+  objectiveText: Leave this room.
+  completedText: Wahoo! You've completed an objective!
+  OnCompleteObjective:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &941208481 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7305953019321114540, guid: 7af2169ec9e225b40b02e86c8be8bece, type: 3}
@@ -2125,6 +2229,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054033421}
   m_Mesh: {fileID: 4300060, guid: 0437c850419d0ae4ea122371dd6d0c7c, type: 3}
+--- !u!1 &1056312112
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1056312113}
+  - component: {fileID: 1056312114}
+  m_Layer: 0
+  m_Name: Objective Two
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1056312113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056312112}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 129015975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1056312114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056312112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554aa031d4ff8e04b8a9fd65069c6f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveDisplay: {fileID: 731577210}
+  objectiveText: Find a light source.
+  completedText: Wahoo! You've completed an objective!
+  OnCompleteObjective:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1065250215
 GameObject:
   m_ObjectHideFlags: 0
@@ -3167,6 +3321,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1346017477}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1509685308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1509685309}
+  - component: {fileID: 1509685310}
+  m_Layer: 0
+  m_Name: Objective Four
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1509685309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509685308}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 129015975}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1509685310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509685308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554aa031d4ff8e04b8a9fd65069c6f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveDisplay: {fileID: 731577210}
+  objectiveText: Find a key to unlock the door.
+  completedText: Wahoo! You've completed an objective!
+  OnCompleteObjective:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1568778392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4588201425041339458, guid: 3fcdd8447595ef048a8e3183998d4a3e, type: 3}
@@ -4641,6 +4845,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 705507995}
   - {fileID: 1118888316}
+  - {fileID: 129015975}
   - {fileID: 368478679}
   - {fileID: 1667366181}
   - {fileID: 828660765}
@@ -4655,4 +4860,3 @@ SceneRoots:
   - {fileID: 1242947823}
   - {fileID: 1698968552}
   - {fileID: 1642862227}
-  - {fileID: 129015975}
